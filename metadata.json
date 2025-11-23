@@ -1,0 +1,5 @@
+{
+  "name": "ScamGuard AI - 反诈骗分析助手",
+  "description": "基于 Gemini AI 的智能反诈骗分析工具。上传聊天记录或主页截图，快速识别杀猪盘、网络诈骗及各种收割套路，守护您的财产安全。",
+  "requestFramePermissions": []
+}
