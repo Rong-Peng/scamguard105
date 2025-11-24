@@ -1,3 +1,4 @@
+
 import React, { useState, useRef } from 'react';
 import { analyzeScamContent } from './services/geminiService';
 import { AnalysisResult, RiskLevel } from './types';
