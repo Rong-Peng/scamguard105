@@ -30,7 +30,6 @@
         background: #64748b; 
       }
     </style>
-    <!-- Polyfill for process.env to prevent ReferenceError on Vercel -->
     <script>
       window.process = {
         env: {
@@ -45,9 +44,10 @@
     "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
     "react-dom": "https://esm.sh/react-dom@18.2.0",
     "recharts": "https://esm.sh/recharts@2.12.3?external=react,react-dom",
-    "@google/genai": "https://esm.sh/@google/genai@0.1.1",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+    "@google/genai": "https://esm.sh/@google/genai@0.1.1"
+    // 已移除对 aistudiocdn.com 的引用，避免部署到 Vercel 后白屏
+    // "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/", 
+    // "react/": "https://aistudiocdn.com/react@^19.2.0/"
   }
 }
 </script>
